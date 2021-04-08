@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3D00</color>
+    <color name="colorPrimaryDark">#D8DA4A11</color>
+    <color name="colorAccent">#FF9100</color>
+
+    <!-- Gredient Color 1 -->
+    <color name="color1">#FFA407</color>
+    <color name="color2">#D8DA4A11</color>
+    <color name="color3">#B3FF00</color>
+
+    <!-- Gredient Color 2 -->
+    <color name="g1">#FFC400</color>
+    <color name="g2">#D8E37043</color>
+    <color name="g3">#A7E614</color>
+</resources>

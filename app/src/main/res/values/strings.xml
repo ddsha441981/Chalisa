@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Chalisa</string>
+    <string name="slogon">Powered By Deendayal Kumawat</string>
+    <string name="logo">जय श्री राम</string>
+    <string name="desc">Power on the computer, or restart it if it</string>
+
+    <!-- About Us Page Details -->
+
+    <string name="name_abouts"> Code With Cup </string>
+    <string name="desc_abouts"> <pre>I am Java and Android Developer and<br />
+        I have 5 Year experience in these technologies.<br />
+        You can contact us :-<br />
+        <strong>kkumawat1111@gmail.com</strong>
+    </pre>
+    </string>
+
+
+</resources>

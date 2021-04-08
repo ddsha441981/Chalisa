@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ContentDisplay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/back_pressed"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/bungee"
+            android:text="hello" />
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/general_back_icon" />
+
+
+
+        <ImageView
+            android:id="@+id/shank_sound"
+            android:layout_marginRight="-10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:padding="8dp"
+           android:src="@drawable/shankha"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/om_sound"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:padding="12dp"
+            android:src="@drawable/om"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/bell_sound"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:padding="12dp"
+            android:src="@drawable/bell"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/bungee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kkkk"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

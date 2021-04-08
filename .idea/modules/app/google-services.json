@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "237988670509",
+    "firebase_url": "https://chalisa-becb7.firebaseio.com",
+    "project_id": "chalisa-becb7",
+    "storage_bucket": "chalisa-becb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237988670509:android:2ae045594ded9baf179ca4",
+        "android_client_info": {
+          "package_name": "com.codewithcup.chalisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237988670509-f1i21eh5fias9qlg0t3teb8lb1e45usv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithcup.chalisa",
+            "certificate_hash": "6e716ad5eae0c692158ca87c5cf6627eeef282b0"
+          }
+        },
+        {
+          "client_id": "237988670509-rcufltkcs6u710f94us7a0n6rji0jupi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2gphy5Tt8JnRo4U8hs6DvMVwsFXHrbf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237988670509-rcufltkcs6u710f94us7a0n6rji0jupi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sub_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/gradient_sub"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="30dp"
+    cardview:cardElevation="8dp"
+    cardview:cardCornerRadius="8dp">
+
+
+    <RelativeLayout
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/sub_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/bungee"
+            android:textSize="15sp"
+            android:padding="20dp"
+            android:text="Hanuman Chalisha"
+
+            />
+
+        <ImageView
+            android:id="@+id/sub_image_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/gradient"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher_background" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

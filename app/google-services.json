@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "922364903437",
+    "firebase_url": "https://chalisa-a723b.firebaseio.com",
+    "project_id": "chalisa-a723b",
+    "storage_bucket": "chalisa-a723b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922364903437:android:7c59ea5d8cae81e61e5544",
+        "android_client_info": {
+          "package_name": "com.codewithcup.chalisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922364903437-j53ufs84455ig0ou52mft8qiefkui0ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5HxMiHUlUStCWkb_VkOrE6LPTKFCla2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922364903437-j53ufs84455ig0ou52mft8qiefkui0ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
